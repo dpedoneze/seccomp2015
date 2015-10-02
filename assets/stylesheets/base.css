@@ -285,6 +285,20 @@ section .inner-section {
   line-height: 18px;
 }
 
+.schedule-content .schedule-info .speaker {
+  font-style: italic;
+}
+
+.short.description {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.description a {
+  color: #0E0E10;
+}
+
 /* location section */
 
 #location {
@@ -335,7 +349,7 @@ section .inner-section {
 
 /* enrollment section */
 
-#enrollment .description {
+.description {
   font-size: 14px;
   color: #8F8F8F;
   line-height: 22px;
@@ -352,7 +366,6 @@ section .inner-section {
   color: #FFFFFF;
   line-height: 43px;
 }
-
 
 /* organizers section */
 
@@ -378,7 +391,7 @@ section .inner-section {
 /* suporters */
 
 #suporters li {
-  width: 33%;
+  width: 25%;
   text-align: center;
   float: left;
 }
@@ -386,10 +399,6 @@ section .inner-section {
 #suporters li img {
   width: 75%;
   height: auto;
-}
-
-#suporters li:last-child img {
-  margin-top: 15px;
 }
 
 /* contact section */
